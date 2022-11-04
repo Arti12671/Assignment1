@@ -12,10 +12,9 @@ public class LStarPattern {
     row = s.nextInt();
     for (r = 0; r < row ; r++) 
     {
-        System.out.print("* ");
-        for (c = 0; c <= row; c++)
+        for (c = 0; c < row-1; c++)
         { 
-            if (r == row - 1)
+            if (r == row - 1 || c== 0)
                 System.out.print("* ");
             else
                 System.out.print(" ");

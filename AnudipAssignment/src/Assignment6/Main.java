@@ -27,14 +27,15 @@ class Agent implements Comparable<Agent>
   private int id;
   private String area;
   //getter and setter method
+
+public int getId() {
+	return id;
+}
 public String getName() {
 	return name;
 }
 public void setName(String name) {
 	this.name = name;
-}
-public int getId() {
-	return id;
 }
 public void setId(int id) {
 	this.id = id;

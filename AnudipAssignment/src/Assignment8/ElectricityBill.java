@@ -1,3 +1,8 @@
+/**
+ * @author Arti Udage
+ *
+ */
+
 package Assignment8;
 import java.util.*;
 public class ElectricityBill {
@@ -11,18 +16,21 @@ public class ElectricityBill {
 		unit = s.nextInt();
 		if(unit < 100)
 		{
-			Charges = unit * 1.20;
-			System.out.println(Charges);
+			//Charges = unit * 1.20;
+			Charges = 1.20;
+			System.out.println("Charges :"+Charges+"per units");
 		}
 		else if(100 <= unit && unit<= 300)
 		{
-			Charges = unit * 2.0;
-			System.out.println(Charges);
+			//Charges = unit * 2.0;
+			Charges = 2.0;
+			System.out.println("Charges :"+Charges+"per units");
 		}
 		else
 		{
-			Charges = unit * 3.0;
-			System.out.println(Charges);
+			//Charges = unit * 3.0;
+			Charges = 3.0;
+			System.out.println("Charges :"+Charges+"per units");
 		}
 	}
 }
